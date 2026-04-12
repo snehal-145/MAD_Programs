@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Number"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,LabelFor,TextFields" />
+
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Second Number"
+        android:textSize="20sp"
+         />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:minWidth="32dp"
+            android:text="+"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,HardcodedText,SpUsage,TextSizeCheck,TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,HardcodedText,TextSizeCheck" />
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="/"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle,HardcodedText,TextSizeCheck" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Result:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+
+</LinearLayout>
