@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"/>
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snehal Wagavekar"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_below="@id/profileImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Email Icon -->
+        <ImageView
+            android:id="@+id/emailIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@id/name"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Email Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="snehal@gmail.com"
+            android:layout_toRightOf="@id/emailIcon"
+            android:layout_alignTop="@id/emailIcon"
+            android:layout_marginStart="8dp"/>
+
+        <!-- Phone Icon -->
+        <ImageView
+            android:id="@+id/phoneIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@id/emailIcon"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Phone Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9876543210"
+            android:layout_toRightOf="@id/phoneIcon"
+            android:layout_alignTop="@id/phoneIcon"
+            android:layout_marginStart="8dp"/>
+
+        <!-- Skills Icon -->
+        <ImageView
+            android:id="@+id/skillsIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@id/phoneIcon"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Skills Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java, Python, Flutter, HTML, CSS"
+            android:layout_toRightOf="@id/skillsIcon"
+            android:layout_alignTop="@id/skillsIcon"
+            android:layout_marginStart="8dp"/>
+
+        <!-- Education Icon -->
+        <ImageView
+            android:id="@+id/educationIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@id/skillsIcon"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Education Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.Tech Computer Science"
+            android:layout_toRightOf="@id/educationIcon"
+            android:layout_alignTop="@id/educationIcon"
+            android:layout_marginStart="8dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>
